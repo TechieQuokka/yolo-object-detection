@@ -209,6 +209,22 @@ COCO 데이터셋 80개 클래스:
 detector.get_model_info()['class_names']
 ```
 
+## 탐지 결과 예시
+
+### 샘플 이미지 탐지
+
+#### Zidane 이미지
+![Zidane Detection](data/results/detected_zidane.jpg)
+
+- 탐지 객체: 2명의 사람, 1개의 넥타이
+- 신뢰도: 0.81 (사람), 0.79 (사람), 0.37 (넥타이)
+
+#### Bus 이미지
+![Bus Detection](data/results/detected_bus.jpg)
+
+- 탐지 객체: 4명의 사람, 1대의 버스
+- 신뢰도: 평균 0.748
+
 ## 예제
 
 ### 예제 1: 웹캠 실시간 탐지

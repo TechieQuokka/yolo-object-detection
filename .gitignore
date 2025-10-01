@@ -48,6 +48,7 @@ data/samples/*
 !data/samples/.gitkeep
 data/results/*
 !data/results/.gitkeep
+!data/results/detected_*.jpg
 
 # Logs
 *.log
